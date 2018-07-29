@@ -1,0 +1,33 @@
+{
+  "name": "jikon",
+  "version": "0.0.1",
+  "description": "Save image of the chart on the server.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/eslint/bin/eslint.js src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnmx4/jikon.git"
+  },
+  "keywords": [
+    "node",
+    "chart",
+    "image"
+  ],
+  "author": "hnmx4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hnmx4/jikon/issues"
+  },
+  "homepage": "https://github.com/hnmx4/jikon#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "c3": "^0.6.6",
+    "express": "^4.16.3",
+    "phantom": "^6.0.3"
+  }
+}
